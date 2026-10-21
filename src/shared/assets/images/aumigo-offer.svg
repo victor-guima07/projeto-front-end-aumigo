@@ -1,0 +1,56 @@
+<svg width="760" height="590" viewBox="0 0 760 590" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="75" y1="22" x2="688" y2="565" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E4F4EC"/>
+      <stop offset="1" stop-color="#B9DDCF"/>
+    </linearGradient>
+    <linearGradient id="fur" x1="303" y1="99" x2="456" y2="475" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D69A62"/>
+      <stop offset="1" stop-color="#A96635"/>
+    </linearGradient>
+    <linearGradient id="device" x1="330" y1="364" x2="433" y2="465" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#193E36"/>
+      <stop offset="1" stop-color="#071F1A"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#183B32" flood-opacity=".25"/>
+    </filter>
+  </defs>
+  <rect width="760" height="590" rx="32" fill="url(#bg)"/>
+  <circle cx="623" cy="114" r="79" fill="#F8E8BD" opacity=".8"/>
+  <path d="M0 486C135 425 210 469 326 481C457 495 548 419 760 450V590H0V486Z" fill="#7EB9A2" opacity=".45"/>
+  <ellipse cx="385" cy="540" rx="220" ry="27" fill="#4C806E" opacity=".22"/>
+  <path d="M220 552C226 431 286 379 381 379C476 379 536 431 542 552H220Z" fill="url(#fur)"/>
+  <path d="M271 212C248 124 291 66 374 66C457 66 506 125 485 214L458 358C450 409 417 437 379 437C337 437 305 408 297 358L271 212Z" fill="url(#fur)"/>
+  <path d="M287 207C225 191 202 138 225 94C239 67 269 55 290 58C304 60 313 74 309 88L287 207Z" fill="#86502F"/>
+  <path d="M471 207C533 191 556 138 533 94C519 67 489 55 468 58C454 60 445 74 449 88L471 207Z" fill="#86502F"/>
+  <path d="M299 210C305 137 340 105 379 105C418 105 453 137 459 210V301C459 361 426 396 379 396C332 396 299 361 299 301V210Z" fill="#D99A60"/>
+  <path d="M342 167C354 157 367 153 379 153C391 153 404 157 416 167C405 177 393 181 379 181C365 181 353 177 342 167Z" fill="#E9B47B" opacity=".65"/>
+  <ellipse cx="379" cy="302" rx="72" ry="61" fill="#EDB77F"/>
+  <circle cx="337" cy="237" r="11" fill="#132D27"/>
+  <circle cx="421" cy="237" r="11" fill="#132D27"/>
+  <circle cx="333" cy="233" r="3" fill="white"/>
+  <circle cx="417" cy="233" r="3" fill="white"/>
+  <path d="M360 282C360 268 398 268 398 282C398 294 389 302 379 302C369 302 360 294 360 282Z" fill="#172E29"/>
+  <path d="M379 302C379 321 365 331 349 328M379 302C379 321 393 331 409 328" stroke="#4F3829" stroke-width="6" stroke-linecap="round"/>
+  <rect x="278" y="355" width="202" height="42" rx="21" fill="#1C725D" filter="url(#shadow)"/>
+  <rect x="345" y="346" width="68" height="112" rx="26" fill="url(#device)" stroke="#51CDA7" stroke-width="3" filter="url(#shadow)"/>
+  <rect x="361" y="364" width="36" height="46" rx="18" fill="#2CA886"/>
+  <rect x="374" y="371" width="10" height="25" rx="5" fill="#D8FFF3"/>
+  <path d="M367 392C367 410 391 410 391 392M379 409V418M370 418H388" stroke="#D8FFF3" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="379" cy="435" r="6" fill="#68DDBA"/>
+  <g filter="url(#shadow)">
+    <rect x="520" y="259" width="187" height="98" rx="20" fill="white"/>
+    <circle cx="551" cy="291" r="16" fill="#DFF4EB"/>
+    <path d="M543 291C548 286 552 296 557 291C562 286 565 294 568 291" stroke="#21A67F" stroke-width="3" stroke-linecap="round"/>
+    <text x="580" y="288" fill="#687A74" font-family="Arial, sans-serif" font-size="11">SINAL INTERPRETADO</text>
+    <text x="540" y="326" fill="#123B32" font-family="Arial, sans-serif" font-size="17" font-weight="700">“Vamos passear?”</text>
+    <path d="M548 357L561 350L557 363Z" fill="white"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="51" y="329" width="151" height="67" rx="17" fill="#123B32"/>
+    <circle cx="77" cy="362" r="8" fill="#62D6B2"/>
+    <text x="95" y="355" fill="#A9CFC3" font-family="Arial, sans-serif" font-size="10">AUMIGO ATIVO</text>
+    <text x="95" y="374" fill="white" font-family="Arial, sans-serif" font-size="13" font-weight="700">Ouvindo sinais</text>
+  </g>
+</svg>

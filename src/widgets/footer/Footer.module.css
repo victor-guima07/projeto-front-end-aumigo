@@ -1,0 +1,10 @@
+.footer { padding: 64px 20px 28px; background: #f5f1e8; }
+.inner, .bottom { width: min(1180px, 100%); margin: 0 auto; }
+.inner { display: flex; padding-bottom: 44px; align-items: flex-start; justify-content: space-between; border-bottom: 1px solid #dcded7; gap: 30px; }
+.logo { display: flex; align-items: center; gap: 9px; color: var(--green-900); font-family: var(--font-heading); font-size: 1.2rem; font-weight: 800; }
+.logo span { display: grid; width: 33px; height: 33px; place-items: center; color: white; background: var(--green-700); border-radius: 10px 10px 10px 3px; }
+.inner p { margin: 12px 0 0; color: var(--muted); font-size: .85rem; }
+.inner nav { display: flex; gap: 28px; color: #53645f; font-size: .86rem; font-weight: 600; }
+.inner nav a:hover { color: var(--green-700); }
+.bottom { display: flex; padding-top: 24px; justify-content: space-between; gap: 20px; color: #7c8884; font-size: .72rem; }
+@media (max-width: 650px) { .inner, .bottom { align-items: flex-start; flex-direction: column; } .inner nav { flex-direction: column; gap: 14px; } }

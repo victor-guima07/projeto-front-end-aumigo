@@ -1,0 +1,13 @@
+.section { padding: 100px 0; background: #eff8f4; }
+.inner { width: min(1180px, calc(100% - 40px)); margin: 0 auto; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.card { padding: 30px; background: white; border: 1px solid #d7e9e2; border-radius: 22px; box-shadow: 0 12px 28px rgba(18,59,50,.05); }
+.stars { margin-bottom: 19px; color: #f6a83b; font-size: .9rem; letter-spacing: .12em; }
+.card blockquote { min-height: 120px; margin: 0 0 26px; color: #344944; font-size: 1rem; line-height: 1.7; }
+.author { display: flex; align-items: center; gap: 12px; }
+.author > span { display: grid; width: 44px; height: 44px; place-items: center; color: white; background: var(--green-700); border-radius: 50%; font-size: .75rem; font-weight: 800; }
+.author strong, .author small { display: block; }
+.author strong { color: var(--green-900); font-size: .9rem; }
+.author small { margin-top: 3px; color: var(--muted); font-size: .7rem; }
+@media (max-width: 800px) { .grid { grid-template-columns: 1fr; } .card blockquote { min-height: auto; } }
+@media (max-width: 520px) { .section { padding: 76px 0; } .inner { width: calc(100% - 28px); } }
