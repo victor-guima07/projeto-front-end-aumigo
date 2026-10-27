@@ -1,0 +1,604 @@
+{
+  "version": "2.21",
+  "children": [
+    {
+      "type": "frame",
+      "id": "M8ave",
+      "x": 0,
+      "y": 0,
+      "name": "Header Mobile",
+      "clip": true,
+      "width": 390,
+      "height": 200,
+      "fill": "#fff6f0",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "BZKs8",
+          "name": "Header Row",
+          "width": "fill_container",
+          "height": "fill_container",
+          "gap": 12,
+          "padding": 16,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "RcHrZ",
+              "name": "Logo Lockup",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "x1ofR",
+                  "name": "Logo Mark",
+                  "width": 42,
+                  "height": 42,
+                  "fill": "#1b5c44",
+                  "cornerRadius": 12,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "z3hRx",
+                      "name": "Mark Letter",
+                      "fill": "#ffffff",
+                      "content": "A",
+                      "textAlign": "center",
+                      "textAlignVertical": "middle",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "UzmAn",
+                  "name": "Wordmark",
+                  "fill": "#1f5d47",
+                  "content": "AuMigo",
+                  "fontFamily": "Space Grotesk",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "g4Xwl",
+              "name": "Hamburger Button",
+              "width": 54,
+              "height": 54,
+              "fill": "#dff4eb",
+              "cornerRadius": 999,
+              "stroke": "#00000000",
+              "gap": 6,
+              "padding": 6,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "C5Ao0",
+                  "name": "Mascote Face",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "#dff4eb",
+                  "cornerRadius": 999,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "II8Yu",
+                      "name": "Mascote Placeholder",
+                      "fill": "#1f5d47",
+                      "content": "Mascote AuMigo",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 10,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "E6du9n",
+      "x": 0,
+      "y": 240,
+      "name": "Hero Mobile",
+      "clip": true,
+      "width": 390,
+      "height": 760,
+      "fill": "#fff8f1",
+      "layout": "vertical",
+      "gap": 20,
+      "children": [
+        {
+          "type": "frame",
+          "id": "CTUNr",
+          "name": "Hero Content",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 14,
+          "padding": 20,
+          "children": [
+            {
+              "type": "text",
+              "id": "Jv01p",
+              "name": "Hero Badge",
+              "fill": "#c96a3f",
+              "content": "Tecnologia que aproxima",
+              "fontFamily": "Space Grotesk",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "letterSpacing": 0.25
+            },
+            {
+              "type": "text",
+              "id": "dTWDU",
+              "name": "Hero Title",
+              "fill": "#1d5b42",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Se o seu melhor amigo pudesse falar,\nque mensagem traria para o AuMigo?",
+              "lineHeight": 1.2,
+              "fontFamily": "Space Grotesk",
+              "fontSize": 34,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "e2RNB",
+              "name": "Hero Description",
+              "fill": "#4f534d",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "AuMigo traduz cada movimento, vibração e latido em insights suaves que ajudam você a responder com carinho e presença.",
+              "lineHeight": 1.6,
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "AGQT2",
+              "name": "Hero Actions",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "fOrjN",
+                  "name": "Primary CTA",
+                  "width": "fill_container",
+                  "fill": "#1f5c47",
+                  "cornerRadius": 20,
+                  "padding": 14,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "WoOeN",
+                      "name": "Primary CTA Label",
+                      "fill": "#ffffff",
+                      "content": "Comprar AuMigo",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "MYjG7",
+                  "name": "Secondary CTA",
+                  "width": "fill_container",
+                  "fill": "#ffffff",
+                  "cornerRadius": 20,
+                  "stroke": "#1f5c47",
+                  "strokeWidth": 1.5,
+                  "padding": 14,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "d8nP0",
+                      "name": "Secondary CTA Label",
+                      "fill": "#1f5c47",
+                      "content": "Descobrir como funciona",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "aO9U5",
+              "name": "Proof Row",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "F449nN",
+                  "name": "Proof Badge",
+                  "fill": "#1d5c47",
+                  "content": "🐾",
+                  "fontFamily": "Inter",
+                  "fontSize": 22,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "zrhZL",
+                  "name": "Proof Text",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "UjQyg",
+                      "name": "Proof Title",
+                      "fill": "#1d5b42",
+                      "content": "+2.400 tutores apaixonados",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "r048I0",
+                      "name": "Proof Subtitle",
+                      "fill": "#5b5f5a",
+                      "textGrowth": "fixed-width",
+                      "width": 220,
+                      "content": "Famílias em sintonia, sempre prontas para ouvir o próximo latido.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "cocYE",
+          "name": "Hero Visual",
+          "width": "fill_container",
+          "fill": "#fff5ea",
+          "cornerRadius": 30,
+          "layout": "vertical",
+          "gap": 12,
+          "padding": 16,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "vj7Rb",
+              "name": "Status Badge",
+              "fill": "#ffffff",
+              "cornerRadius": 18,
+              "stroke": "#f0c7a0",
+              "strokeWidth": 1,
+              "gap": 8,
+              "padding": 10,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "iwZ5W",
+                  "name": "Status Badge Text",
+                  "fill": "#bf5f3e",
+                  "content": "Possível sinal detectado · Hora de brincar?",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "KVPTJ",
+              "name": "Hero Illustration Placeholder",
+              "width": "fill_container",
+              "height": 240,
+              "fill": "#1c5b45",
+              "cornerRadius": 24,
+              "justifyContent": "center",
+              "alignItems": "center"
+            },
+            {
+              "type": "frame",
+              "id": "DR8Ue",
+              "name": "Battery Badge",
+              "fill": "#ffffff",
+              "cornerRadius": 999,
+              "stroke": "#1d5b47",
+              "strokeWidth": 1,
+              "gap": 6,
+              "padding": 8,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "pwRqq",
+                  "name": "Battery Text",
+                  "fill": "#1d5b47",
+                  "content": "7 dias de bateria",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "nP1Gv",
+      "x": 420,
+      "y": 240,
+      "name": "Design Checklist",
+      "width": 320,
+      "height": 200,
+      "fill": "#fffdf7",
+      "cornerRadius": 20,
+      "layout": "vertical",
+      "gap": 10,
+      "padding": 16,
+      "children": [
+        {
+          "type": "text",
+          "id": "L2rPy",
+          "name": "Checklist Title",
+          "fill": "#1d5b47",
+          "content": "Checklist de revisão",
+          "fontFamily": "Space Grotesk",
+          "fontSize": 16,
+          "fontWeight": "700"
+        },
+        {
+          "type": "text",
+          "id": "TqJxf",
+          "name": "Item - Layout não está colapsado",
+          "fill": "#4b4e49",
+          "content": "• Layout não está colapsado",
+          "fontFamily": "Inter",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "i56GUw",
+          "name": "Item - Conteúdo não está cortado",
+          "fill": "#4b4e49",
+          "content": "• Conteúdo não está cortado",
+          "fontFamily": "Inter",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "bmzXL",
+          "name": "Item - Contraste e cores adequados",
+          "fill": "#4b4e49",
+          "content": "• Contraste e cores adequados",
+          "fontFamily": "Inter",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "ze3NI",
+          "name": "Item - Objetos alinhados e espaçados",
+          "fill": "#4b4e49",
+          "content": "• Objetos alinhados e espaçados",
+          "fontFamily": "Inter",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "WKphT",
+          "name": "Item - Intenção e schema conferem",
+          "fill": "#4b4e49",
+          "content": "• Intenção e schema conferem",
+          "fontFamily": "Inter",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "UWIry",
+      "x": 780,
+      "y": 0,
+      "name": "Header Mobile - Menu Aberto",
+      "clip": true,
+      "width": 390,
+      "height": 360,
+      "fill": "#fff6f0",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "C6XQI",
+          "name": "Header Row (Menu Aberto)",
+          "width": "fill_container",
+          "gap": 12,
+          "padding": 16,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "YuYX2",
+              "name": "Logo Lockup (Menu Aberto)",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "sVLcH",
+                  "name": "Logo Mark",
+                  "width": 42,
+                  "height": 42,
+                  "fill": "#1b5c44",
+                  "cornerRadius": 12,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MMJu2",
+                      "name": "Mark Letter",
+                      "fill": "#ffffff",
+                      "content": "A",
+                      "textAlign": "center",
+                      "textAlignVertical": "middle",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "kDaYl",
+                  "name": "Wordmark",
+                  "fill": "#1f5d47",
+                  "content": "AuMigo",
+                  "fontFamily": "Space Grotesk",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "szGJW",
+              "name": "Mascote Button (Menu Aberto)",
+              "width": 54,
+              "height": 54,
+              "fill": "#dff4eb",
+              "cornerRadius": 999,
+              "stroke": "#00000000",
+              "gap": 6,
+              "padding": 6,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "IrbPh",
+                  "name": "Mascote Face",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "#dff4eb",
+                  "cornerRadius": 999,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "UeESS",
+                      "name": "Mascote Placeholder",
+                      "fill": "#1f5d47",
+                      "content": "Mascote AuMigo",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 10,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "wCEO4",
+          "name": "Menu Panel",
+          "width": "fill_container",
+          "fill": "#fffdf7",
+          "cornerRadius": 28,
+          "stroke": "#dfe9e4e6",
+          "strokeWidth": 1,
+          "layout": "vertical",
+          "gap": 18,
+          "padding": 20,
+          "children": [
+            {
+              "type": "text",
+              "id": "qceAS",
+              "name": "Link - Benefícios",
+              "fill": "#1f5d47",
+              "content": "Benefícios",
+              "fontFamily": "Space Grotesk",
+              "fontSize": 16,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "z2tnhL",
+              "name": "Link - Como funciona",
+              "fill": "#1f5d47",
+              "content": "Como funciona",
+              "fontFamily": "Space Grotesk",
+              "fontSize": 16,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "Q4bVzk",
+              "name": "Link - Depoimentos",
+              "fill": "#1f5d47",
+              "content": "Depoimentos",
+              "fontFamily": "Space Grotesk",
+              "fontSize": 16,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "d7i1T",
+              "name": "Link - Oferta",
+              "fill": "#1f5d47",
+              "content": "Oferta",
+              "fontFamily": "Space Grotesk",
+              "fontSize": 16,
+              "fontWeight": "600"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fileToken": "48d02f58-3bb6-422e-af44-2fbc2883a96b"
+}

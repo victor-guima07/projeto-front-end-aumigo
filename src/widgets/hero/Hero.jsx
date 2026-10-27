@@ -11,8 +11,12 @@ function Hero() {
           <h1>Se o seu cachorro pudesse falar, <em>o que ele diria?</em></h1>
           <p className={styles.lead}>AuMigo é a coleira inteligente que ajuda você a interpretar possíveis sinais do seu cão — para uma rotina com mais atenção, cuidado e conexão.</p>
           <div className={styles.actions}>
-            <Button href="#oferta">Comprar AuMigo <span aria-hidden="true">→</span></Button>
-            <Button href="#funcionamento" variant="secondary">Descobrir como funciona</Button>
+            <div className={styles.actionButton}>
+              <Button href="#oferta">Comprar AuMigo <span aria-hidden="true">→</span></Button>
+            </div>
+            <div className={styles.actionButton}>
+              <Button href="#funcionamento" variant="secondary">Descobrir como funciona</Button>
+            </div>
           </div>
           <div className={styles.proof}>
             <div className={styles.avatars} aria-hidden="true"><span>🐶</span><span>🐕</span><span>🐾</span></div>
